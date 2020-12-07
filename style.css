@@ -167,22 +167,28 @@
 }
 
 .reset {
-
-  font-size: 1.1rem;
+  /* background-color: var(--third-color); */
+  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 5px;
-  box-shadow: 1px 2px #8a795d;
-  transition: .4s;
+  box-shadow: 1px 3px #8a795d;
+  transition: .1s;
+  border: none;
+  
 }
 
 .translateBtn {
+  font-size: 1.5rem;
   border-radius: 5px;
-  box-shadow: 1px 2px #8a795d;
-  transition: .4s;
+  box-shadow: 1px 3px #8a795d;
+  transition: .1s;
+  border: none;
+  
 }
 
 .reset:active,
 .translateBtn:active {
+  box-shadow: 1px 1px #8a795d;
   transform: translateY(2px);
 }
 
